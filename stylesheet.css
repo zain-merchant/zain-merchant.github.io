@@ -129,3 +129,28 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Button styling for research section */
+.button {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 2px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: #495057;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+  color: #212529;
+  text-decoration: none;
+}
+
+.button b {
+  font-weight: 600;
+}
