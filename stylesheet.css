@@ -154,3 +154,30 @@ span.highlight {
 .button b {
   font-weight: 600;
 }
+
+/* Navigation Bar Styles */
+.navbar {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #1772d0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #f09228;
+  text-decoration: none;
+}
